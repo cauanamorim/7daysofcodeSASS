@@ -1,0 +1,36 @@
+@import ../abstract/_variaveis.scss
+
+.metricas
+    font-family: $fonte
+    
+    
+    .metricas-grid
+        display: grid
+        grid-template-areas: "titulo titulo titulo titulo" "subtitulo subtitulo subtitulo subtitulo" "paragrafo paragrafo paragrafo paragrafo"
+        gap: 2rem
+        width: 90%
+        margin: auto
+        margin-top: 5rem
+        
+
+    h3
+        grid-area: titulo        
+    h4
+        grid-area: subtitulo        
+    p
+        grid-area: paragrafo
+   
+
+    h3
+        color: $main-color
+        font-size: $fonte-metricas
+        margin: 0
+    h4
+        color: $title-color
+        font-size: 18px
+        margin: 0
+        padding: 1rem 0rem
+    p
+        color: $text-color
+        font-size: $fonte-media
+        margin: 0
